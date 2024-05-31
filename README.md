@@ -1,7 +1,9 @@
 # 0031-professional-certificate
 Portfolio Project for Professional Certificate in Machine Learning and Artificial Intelligence
 ## Structuring your GitHub repository
-...
+I'm using Visual Studio Code for editing and source control. This will initially be a public repository.
+
+My next step to try and include a Jupyter notebook. I don't want to edit the Jupyter notebook within VS Code, but we will have to see how it goes.
 ## Choosing a task
 ...
 ## Finding a dataset
