@@ -7,12 +7,22 @@ My next step to try and include a Jupyter notebook. Done - I have added an intia
 
 For structure, I will be sticking to the headings outlined in the project brief/description.
 
+I noticed that on load of my Jupyter notebook GiHub had picked up on my language choice, which is nice. Grammar and spelling will be tidied up at the end.
+
 ## Choosing a task
 ...
 ## Finding a dataset
 I had originally wanted to create my own from either images suited to a classification task. Again, if I get time I will revert back to this activity at the end. I want to focus on getting a working CNN using automated hyperparameter tuning (automated machine learning AutoML). To this end, I have been geeting started with the Hyperopt documentation and tutorials. Why Hyperopt? Because it was the first package listed in the slected article [1] I reviewed. If time permits I will try and get to grips with the other two (pySOT and TurBO).
 
 Throughout the course we have been introduced to different datsets from the machine learning wheelhouse. For reasons of speed and expediancy I am going to stay within familar teratory and use the {Mitchell} and fashion-MNIST with a a third new dataset. The choice of this dataset was two-fold: firstly, I wanted something fun, and secondndly, I wanted something that was smaller than the fashion-MNIST dataset but bigger than the {Mitchell} dataset. The reason for this is because I am expecting to automatically tune hyperparapmeters, so I need something withtin the limits of enough data to get good accuracy, if ther can be, but nt so much data that time and resources are overwhelmed - a trade-off!
+
+The initial load will be made in greyscale to match the model and begin tuning. If time permits, I will revisit colour (and update the model as necessary).
+At a practicle level the images are all 28x28, so again least changes to explore/experiment with automated hyperparmaeter tuning, Hyperopt, and GPU hardware and submit a fun portfolio project that is extensible to other image applications.
+
+{} | 10,000 simpsons-minst | 60,000 MNIST
+/faces - made training and test sets on-the-fly
+/greyscale - bumped up the folder tree and split into training and test
+/data - {check what was done}
 ### Experiments
 I am going to try and follow a little of the structure of the selected article and make this a bit like an experiment to prove the methods employed against some baselines and then extend further with a self-created dataaset, if there is time. I wrote about this is my critic of the selected article and it feels workwhile. I should probably mention that I have gone away from my original rail industry inspired idea. It would have been a good exploration of Bayesian optimisation, but there were too many unknowns to start with certainty for this exrecise. It also lacked the ties with CNNs and hardware that I find exciting.
 ## Choosing a model
