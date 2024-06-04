@@ -8,7 +8,9 @@ This code runs on Apple MacBook Pro and Nvidia Jetson Nano hardware – it proba
 
 In the final code block, the built-in camera of the MacBook Pro and an external webcam with the Jetson Nano are used to capture a series of image snapshots and predict the character from the images.
 
-End-to-end, it functions as a comprehensive solution, a hopefully a bit of fun!
+![Physical Setup](jetson-nano-and-camera-and-krusty.jpg)
+
+End-to-end, it functions as a comprehensive solution, and hopefully a bit of fun!
 
 ## Dataset
 [MNIST-like Simpsons dataset](https://github.com/alvarobartt/simpsons-mnist)
@@ -66,12 +68,21 @@ I've tried to heavily comment the code within the notebook. The model itself can
 
 ## Useful Links:
 [HyperOpt](https://github.com/WillKoehrsen/hyperparameter-optimization/blob/master/Introduction%20to%20Bayesian%20Optimization%20with%20Hyperopt.ipynb)
+
 [numworkers](https://discuss.pytorch.org/t/guidelines-for-assigning-num-workers-to-dataloader/813/50)
+
 [Loss Function](https://pytorch.org/tutorials/beginner/introyt/trainingyt.html#loss-function)
+
 [Jetson Nano](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
+
 [NumPy on Jetson Nano](https://github.com/microsoft/vscode-jupyter/wiki/Kernel-crashes-when-using-numpy)
+
 [PyTorch on Jetson Nano](https://pytorch.org/blog/running-pytorch-models-on-jetson-nano/)
+
 [PyTorch on Jetson Nano](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-transfer-learning.md#mounting=swap)
+
 [GPU](https://developers.redhat.com/learning/learn:openshift-data-science:configure-jupyter-notebook-use-gpus-aiml-modeling/resource/resources:how-examine-gpu-resources-pytorch)
+
 [GPU](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#training-on-gpu)
+
 [GPU/CPU](https://stackoverflow.com/questions/77226100/snn-that-works-on-cpu-throws-mismatched-tensor-types-in-nnpack-convolutionoutpu)
