@@ -4,6 +4,8 @@ A lightweight model to predict chracters from The Simpsons captured by a camera 
 
 Not real-time, yet. But relatively easilly adapted.
 
+[Readme](README.md) | [Jupyter Notebook](portfolio-project-submission.ipynb) | [Datasheet](data_sheet.md) | [Model Card](model_card.md)
+
 ## Model Description
 
 **Input:** Describe the inputs of your model 

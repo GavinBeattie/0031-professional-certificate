@@ -1,6 +1,8 @@
 # Datasheet for [simpsons-mnist](https://github.com/alvarobartt/simpsons-mnist)
 The following datasheet accompanies the model card. It contains a summary of the origins of the dataset and how it has been used to support my portfolio project submission (this project).
 
+[Readme](README.md) | [Jupyter Notebook](portfolio-project-submission.ipynb) | [Datasheet](data_sheet.md) | [Model Card](model_card.md)
+
 ## Motivation
 - The dataset was created to train neural networks for educational purposes.
 - The dataset was created by [Alexandre Attia](https://github.com/alexattia), who created the dataset to be more engaging than the traditional MNIST datasets. It is assumed to be self-funded, and in his own words, it is deliberately "small and dirty" compared to other MNIST datasets.

@@ -1,6 +1,8 @@
 # 0031-professional-certificate
 Portfolio Project for Professional Certificate in Machine Learning and Artificial Intelligence
 
+[Readme](README.md) | [Jupyter Notebook](portfolio-project-submission.ipynb) | [Datasheet](data_sheet.md) | [Model Card](model_card.md)
+
 ## Executive Summary (100-word non-technical explanation)
 The included notebook trains a LeNet-5 model using PyTorch. Hyperparameters such as learning rate, epochs, and momentum are optimised with Hyperopt.
 
